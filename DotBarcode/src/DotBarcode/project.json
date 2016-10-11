@@ -1,0 +1,38 @@
+{
+  "name": "DotCore.Barcode",
+  "version": "1.0.0-*",
+  "title": "DotCore.Barcode",
+  "description": "C# barcode base library (.Net Core).",
+  "copyright": "Copyright 2016",
+  "authors": [
+    "Harry Y"
+  ],
+
+  "packOptions": {
+    "summary": "C# barcode base library for .Net Core.",
+    "tags": [
+      "DotNet Core",
+      "CSharp",
+      "Barcode"
+    ],
+    "owners": [
+      "Harry Y"
+    ],
+    "releaseNotes": "Initial (public) release.",
+    "projectUrl": "https://github.com/harrywye/dotbarcode",
+    "licenseUrl": "https://github.com/harrywye/dotbarcode/blob/master/LICENSE",
+    "requireLicenseAcceptance": false
+  },
+
+  "dependencies": {
+    "DotCore.Core": "1.0.1",
+    "NETStandard.Library": "1.6.0",
+    "ZXing.Net.Core": "0.1.1-beta"
+  },
+
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "dnxcore50"
+    }
+  }
+}
