@@ -1,6 +1,6 @@
 {
   "name": "DotCore.Barcode",
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "title": "DotCore.Barcode",
   "description": "C# barcode base library (.Net Core).",
   "copyright": "Copyright 2016",
@@ -27,7 +27,7 @@
   "dependencies": {
     "DotCore.Core": "1.0.1",
     "NETStandard.Library": "1.6.0",
-    "ZXing.Net.Core": "0.1.1-beta"
+    "ZXing.Net.Core": "0.1.2-beta"
   },
 
   "frameworks": {
