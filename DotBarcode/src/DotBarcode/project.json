@@ -1,6 +1,6 @@
 {
   "name": "DotCore.Barcode",
-  "version": "1.0.3-*",
+  "version": "1.0.4-*",
   "title": "DotCore.Barcode",
   "description": "C# barcode base library (.Net Core).",
   "copyright": "Copyright 2016",
