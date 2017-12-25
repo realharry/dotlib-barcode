@@ -1,41 +1,56 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C86448C-77F8-4B73-93D9-5ED664539F87}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{597C7697-AF58-4529-BA37-CBB1DFD95CE4}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotBarcode", "src\DotBarcode\DotBarcode.xproj", "{23A21402-37D9-4691-B7AC-96F8B82B6E8B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C55AF6E6-D2DE-470A-BC48-9F9BE6737062}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotBarcodeTests", "test\DotBarcodeTests\DotBarcodeTests.xproj", "{F8474EAA-9C31-4927-821C-916CACA776C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotBarcode", "src\DotBarcode\DotBarcode.csproj", "{5F58E778-2D7D-458D-AEF9-CF3242F72632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotBarcodeTests", "test\DotBarcodeTests\DotBarcodeTests.csproj", "{CC814D89-39C5-4779-B5C3-2669F5ADA60F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23A21402-37D9-4691-B7AC-96F8B82B6E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23A21402-37D9-4691-B7AC-96F8B82B6E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23A21402-37D9-4691-B7AC-96F8B82B6E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23A21402-37D9-4691-B7AC-96F8B82B6E8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8474EAA-9C31-4927-821C-916CACA776C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8474EAA-9C31-4927-821C-916CACA776C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8474EAA-9C31-4927-821C-916CACA776C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8474EAA-9C31-4927-821C-916CACA776C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Debug|x64.ActiveCfg = Debug|x64
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Debug|x64.Build.0 = Debug|x64
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Debug|x86.ActiveCfg = Debug|x86
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Debug|x86.Build.0 = Debug|x86
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Release|x64.ActiveCfg = Release|x64
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Release|x64.Build.0 = Release|x64
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Release|x86.ActiveCfg = Release|x86
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632}.Release|x86.Build.0 = Release|x86
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Debug|x64.ActiveCfg = Debug|x64
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Debug|x64.Build.0 = Debug|x64
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Debug|x86.ActiveCfg = Debug|x86
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Debug|x86.Build.0 = Debug|x86
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Release|x64.ActiveCfg = Release|x64
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Release|x64.Build.0 = Release|x64
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Release|x86.ActiveCfg = Release|x86
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{23A21402-37D9-4691-B7AC-96F8B82B6E8B} = {7C86448C-77F8-4B73-93D9-5ED664539F87}
-		{F8474EAA-9C31-4927-821C-916CACA776C8} = {C55AF6E6-D2DE-470A-BC48-9F9BE6737062}
+		{5F58E778-2D7D-458D-AEF9-CF3242F72632} = {7C86448C-77F8-4B73-93D9-5ED664539F87}
+		{CC814D89-39C5-4779-B5C3-2669F5ADA60F} = {C55AF6E6-D2DE-470A-BC48-9F9BE6737062}
 	EndGlobalSection
 EndGlobal

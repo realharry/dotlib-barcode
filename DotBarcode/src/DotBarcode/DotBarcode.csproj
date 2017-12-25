@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>C# barcode base library (.Net Core).</Description>
+    <Copyright>Copyright 2016</Copyright>
+    <AssemblyTitle>DotCore.Barcode</AssemblyTitle>
+    <VersionPrefix>1.0.4</VersionPrefix>
+    <Authors>Harry Y</Authors>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <AssemblyName>DotCore.Barcode</AssemblyName>
+    <PackageId>DotBarcode</PackageId>
+    <PackageTags>DotNet Core;CSharp;Barcode</PackageTags>
+    <PackageReleaseNotes>Initial (public) release. Added dependency on ZXing.Net.Core</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/harrywye/dotbarcode</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/harrywye/dotbarcode/blob/master/LICENSE</PackageLicenseUrl>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotCore.Core" Version="1.0.1" />
+    <PackageReference Include="ZXing.Net.Core" Version="0.2.7" />
+  </ItemGroup>
+
+</Project>
